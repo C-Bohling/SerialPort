@@ -12,7 +12,7 @@ This library is intended for use with the NOYITO USB 10-Channel 12-bit AD Data A
 - **Create an instance of the `SerialPort` class.**  
   *Example:* 
   
-      const port = SerialPort() 
+      const port = new SerialPort() 
 
 - **Run the `setUpPort()` method on your SerialPort instance by way of user interaction.**  
   This asynchronous method is the one that actually asks the user to allow the use of the serial port and gets the serial port. It must be called by way of user interaction, like a click.  
